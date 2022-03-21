@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "next dev",
+    "start": "REACT_NATIVE_PACKAGER_HOSTNAME=192.168.1.132 expo start --web",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "REACT_NATIVE_PACKAGER_HOSTNAME=192.168.1.132 expo start --web",
+    "react": "next dev",
     "build": "next build"
   },
   "dependencies": {
